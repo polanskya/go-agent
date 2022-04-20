@@ -3,7 +3,7 @@
 Package `nrmicro-v3` instruments https://github.com/asim/go-micro.
 
 ```go
-import "github.com/newrelic/go-agent/v3/integrations/nrmicro"
+import "github.com/newrelic/go-agent/v3/integrations/nrmicro-v3"
 ```
 
 For more information, see
