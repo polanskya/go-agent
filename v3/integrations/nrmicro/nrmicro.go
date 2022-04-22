@@ -5,6 +5,8 @@ package nrmicro
 
 import (
 	"context"
+	"github.com/newrelic/go-agent/v3/internal"
+	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
 	"net/http"
 	"net/url"
 	"strings"
@@ -15,8 +17,8 @@ import (
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/server"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
+	//"github.com/newrelic/go-agent/v3/internal"
+	//"github.com/newrelic/go-agent/v3/internal/integrationsupport"
 	"github.com/newrelic/go-agent/v3/newrelic"
 )
 

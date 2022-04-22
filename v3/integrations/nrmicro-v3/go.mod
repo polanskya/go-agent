@@ -7,8 +7,8 @@ go 1.13
 require (
 	github.com/asim/go-micro/plugins/broker/memory/v3 v3.7.0
 	github.com/asim/go-micro/plugins/registry/memory/v3 v3.7.0
-	github.com/asim/go-micro/plugins/selector/registry v0.0.0-20210630082400-93ba8cd0dfc7
-	github.com/asim/go-micro/v3 v3.7.0
+	github.com/asim/go-micro/v3 v3.7.1
+	github.com/go-micro/plugins/v3/selector/registry v1.0.0 // indirect
 	github.com/golang/protobuf v1.5.2
 	github.com/newrelic/go-agent/v3 v3.15.1
 )

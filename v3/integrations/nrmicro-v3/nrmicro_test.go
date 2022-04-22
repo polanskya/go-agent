@@ -13,7 +13,6 @@ import (
 
 	bmemory "github.com/asim/go-micro/plugins/broker/memory/v3"
 	rmemory "github.com/asim/go-micro/plugins/registry/memory/v3"
-	selectorReg "github.com/asim/go-micro/plugins/selector/registry"
 
 	"github.com/asim/go-micro/v3"
 	"github.com/asim/go-micro/v3/broker"
@@ -23,6 +22,7 @@ import (
 	"github.com/asim/go-micro/v3/server"
 	proto "github.com/newrelic/go-agent/v3/integrations/nrmicro-v3/example/proto"
 
+	selectorReg "github.com/go-micro/plugins/v3/selector/registry"
 	"github.com/newrelic/go-agent/v3/internal"
 	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
 	"github.com/newrelic/go-agent/v3/newrelic"
