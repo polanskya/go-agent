@@ -1,10 +1,10 @@
-# v3/integrations/nrmicro [![GoDoc](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro?status.svg)](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro)
+# v3/integrations/nrmicro-v3 [![GoDoc](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro?status.svg)](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro-v3)
 
-Package `nrmicro` instruments https://github.com/micro/go-micro.
+Package `nrmicro-v3` instruments https://github.com/asim/go-micro.
 
 ```go
-import "github.com/newrelic/go-agent/v3/integrations/nrmicro"
+import "github.com/newrelic/go-agent/v3/integrations/nrmicro-v3"
 ```
 
 For more information, see
-[godocs](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro).
+[godocs](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrmicro-v3).
